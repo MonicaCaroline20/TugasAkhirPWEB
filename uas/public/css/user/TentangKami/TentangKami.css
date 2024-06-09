@@ -1,0 +1,89 @@
+@import url(../templates/default.css);
+@import url(../templates/navigasi.css);
+@import url(../templates/footer.css);
+
+.wrapper-content{
+    margin: 4rem auto 0;    
+}
+
+.top-content{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(203, 200, 194, 1) 70%, rgb(255, 255, 255) 70%, rgb(255, 255, 255) 100%);
+    width: 100%;
+    background-size: 200% 125%;
+    animation: gradientAnimation forwards;
+    height: 50rem;
+    padding-top: 7rem;
+}
+
+@keyframes gradientAnimation {
+
+    100% {
+        background-position: -25% -400%;
+    }
+}
+
+.top-content hr{
+    height: 0.2rem;
+    opacity: 1;
+    background-color: black;
+    width: 25%;
+}
+
+.top-content img{
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+}
+
+.top-content .kursi{
+    top: 10%;
+    right: 13%;
+}
+
+.top-content .gate{
+    top: 30%;
+    left: 10%;
+}
+
+
+
+.bottom-content{
+    height: 30rem;
+    background-color: rgba(47, 46, 44, 1);
+    display: flex;
+    padding: 3rem 7rem;
+    gap: 5rem;
+}
+
+.bottom-content .right img{
+    width: 20rem;
+    height: 10rem;
+}
+
+.bottom-content .left h4, .bottom-content .left p{
+    color: var(--fc-white);
+    padding-bottom: 2rem;
+}
+
+/* .bottom-content .left, .bottom-content .right{
+    width: 50%;
+} */
+
+.bottom-content .right{
+    display: flex;
+}
+
+.top-content .content{
+    margin-top: 12.5rem;
+    display: flex;
+    gap: 5rem;
+}
+
+.top-content .content .card{
+    box-shadow: 6px 10px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 0;
+}

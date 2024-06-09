@@ -1,0 +1,46 @@
+/* footer */
+
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    min-height: 6.25rem;
+    background-color: var(--bg-cream-dark);
+    padding: 1.25rem 3.1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .sosmed, footer .link{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0.8rem 0;
+}
+
+footer .sosmed a #sosmed1, footer .link1{
+    color: white;
+    margin: 0 0.8rem;
+    display: inline-block;
+    transition: 0.5s;
+}
+footer .link :hover{
+    color: black;
+}
+footer .sosmed a:hover{
+    transform: translateY(-0.5rem);
+    transition: 0.3s;
+}
+
+footer .copyright p span{
+    color: black;
+}
+
+footer .copyright p{
+    font-size: 0.9rem;
+    opacity: 80%;
+}

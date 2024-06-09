@@ -1,0 +1,121 @@
+@import url(../templates/default.css);
+@import url(../templates/navigasi.css);
+@import url(../templates/footer.css);
+
+.container-home{
+    padding: 0;
+    margin: 4rem 0 0;
+}
+
+.wrap-banner{
+    background-image:url(../../../img/homepage/bannerHome.png);
+    padding: 2rem 0 0;
+}
+
+.wrap-banner .wrap-content{
+    padding: 2rem 7rem 7rem;
+}
+#carouselExampleDark .carousel-inner h3, #carouselExampleDark .carousel-inner h4{
+    
+}
+
+#carouselExampleDark .carousel-inner img{
+    height: 20rem;
+    background-size: cover;
+    background-position: center;
+    width: 5rem;
+    display: flex;
+    margin: 0 auto;
+}
+#carouselExampleDark .carousel-inner img.item1{
+    background-image: url(../../../img/daftarRuang/ruangA3.4.jpg);
+}
+#carouselExampleDark .carousel-inner img.item2{
+    background-image: url(../../../img/daftarRuang/ruangA3.1.jpg);
+}
+#carouselExampleDark .carousel-inner img.item3{
+    background-image: url(../../../img/daftarRuang/ruangA4.3.jpg);
+}
+
+h1{
+    text-align: center;
+}
+
+h1 span{
+    color: var(--bg-cream-dark);
+}
+
+.wrapper-content{
+    height: 50rem;
+    margin-top: -3.3rem;
+    /* position: relative; */
+}
+
+.wrapper-box{
+    border-radius: 5rem;
+    top: -3.3rem; 
+    position: relative;
+    height: 7rem;
+    width: 100%;
+    background-color: white;
+}
+
+.wrapper-content .wrapper-two .card{
+    border: none;
+    border-radius: 0;
+    width: 15rem;
+}
+
+.wrapper-content .wrapper-two .card .card-body a{
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    background-color: rgba(203, 200, 194, 1);
+    border: none;
+}
+
+.wrapper-content .wrapper-two .card .card-body .card-title{
+    display: flex;
+    text-align: center;
+    margin: 0 2rem;
+    align-items: center;
+}
+
+.wrapper-content .wrapper-two .card .card-body{
+    display: flex;
+    height: 10rem;
+    padding: 0;
+}
+
+.wrapper-two{
+    display: flex;
+    padding: 5rem 0;
+    justify-content: center;
+    gap: 5rem;
+    background-color: rgba(47, 46, 44, 1);
+}
+
+
+.wrapper-content .wrapper-bottom{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    padding: 5rem 15rem;
+}
+
+.wrapper-content .wrapper-bottom .deskripsi .button{
+    background-color: rgba(47, 46, 44, 1);
+    color: var(--fc-white);
+    width: 7rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5rem;
+}
+
+.wrapper-content .wrapper-bottom .picture img{
+    width: 20rem;
+    height: 20rem;
+}
+

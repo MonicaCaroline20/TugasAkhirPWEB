@@ -1,0 +1,23 @@
+@import url(../templates/default.css);
+@import url(../templates/navigasi.css);
+
+
+h1{
+    color: var(--bg-grey-light);
+}
+
+.content{
+    padding: 10rem 10rem;
+}
+
+.content .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-header{
+    justify-content: space-between;
+    display: flex;
+}
+

@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'poppins thin'; src: url(../../../font/Poppins-Thin.ttf) ; font-weight: 100;
+}
+@font-face {
+    font-family: 'poppins extra light'; src: url(../../../font/Poppins-ExtraLight.ttf) ; font-weight: 200;
+}
+@font-face {
+    font-family: 'poppins light'; src: url(../../../font/Poppins-Light.ttf) ; font-weight: 300;
+}
+@font-face {
+    font-family: 'poppins regular'; src: url(../../../font/Poppins-Regular.ttf) ; font-weight: 400;
+}
+@font-face {
+    font-family: 'poppins medium'; src: url(../../../font/Poppins-Medium.ttf) ; font-weight: 500;
+}
+@font-face {
+    font-family: 'poppins semi bold'; src: url(../../../font/Poppins-SemiBold.ttf) ; font-weight: 600;
+}
+@font-face {
+    font-family: 'poppins bold'; src: url(../../../font/Poppins-Bold.ttf) ; font-weight: 700;
+}
+
+:root{
+    /* bg color */
+    --bg-white: rgba(254, 254, 254, 1);
+    --bg-grey-light: rgba(80, 79, 77, 1);
+    --bg-cream: rgba(222, 218, 217, 1);
+    --bg-cream-dark: rgba(152, 148, 149, 1);
+    --bg-dark:rgba(47, 46, 44, 1);
+    --bg-cream-light: rgba(212, 212, 210, 1);
+
+    /* font size */
+    --fz: 1rem;
+
+    /* font color */
+    --fc-black: rgba(0, 0, 0, 1);
+    --fc-white: rgba(255, 255, 255, 1);
+}
+
+*,body{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-family: 'poppins semi bold';
+    color: var(--fc-black);
+    cursor: default;
+}
+
+h2{
+    font-family: 'poppins medium';
+    color: var(--fc-black);
+    cursor: default;
+}
+
+p{
+    font-family: 'poppins extra light';
+    font-size: var(--fz);
+    color: var(--fc-black);
+    cursor: default;
+}
+
+a{
+    text-decoration: none;
+    color: var(--fc-black);
+}
+
+.container{
+    margin: 7rem auto 5rem;
+    height: 100vh;
+}

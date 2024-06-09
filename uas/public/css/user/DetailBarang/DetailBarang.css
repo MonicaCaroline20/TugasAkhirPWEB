@@ -1,0 +1,8 @@
+@import url(../templates/default.css);
+@import url(../templates/navigasi.css);
+@import url(../templates/footer.css);
+
+
+.row{
+    margin-top: 4rem;
+}
